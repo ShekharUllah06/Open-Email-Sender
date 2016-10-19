@@ -5,10 +5,6 @@
  */
 package openemailsender;
 
-import static com.devstation.emailsender.database.connection.MSAccessConnection.getConnection;
-import java.sql.Connection;
-import java.sql.Statement;
-
 /**
  *
  * @author Shekhar Ullah
