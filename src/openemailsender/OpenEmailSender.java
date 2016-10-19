@@ -5,6 +5,10 @@
  */
 package openemailsender;
 
+import static com.devstation.emailsender.database.connection.MSAccessConnection.getConnection;
+import java.sql.Connection;
+import java.sql.Statement;
+
 /**
  *
  * @author Shekhar Ullah
@@ -14,8 +18,8 @@ public class OpenEmailSender {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) throws Exception {
+       
     }
-    
+
 }
